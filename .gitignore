@@ -1,0 +1,11 @@
+# Ignore the images folder inside testproject
+property_llm/testproject/images/
+
+# Ignore all __pycache__ folders throughout the project
+**/__pycache__/
+
+# Ignore the virtual environment folder
+venv/
+
+# ignore gemini_api.log
+property_llm/gemini_api.log
