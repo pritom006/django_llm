@@ -60,6 +60,7 @@ Ensure your database container is running and accessible. The project uses a Pos
    ```
 3. To see the django application and django admin:
    ```bash
+   create superuser: docker-compose exec -it django python manage.py createsuperuser
    http://0.0.0.0:8000/admin/
    ```
 
