@@ -58,6 +58,10 @@ Ensure your database container is running and accessible. The project uses a Pos
    docker-compose exec -it django python manage.py makemigrations
    docker-compose exec -it django python manage.py migrate
    ```
+3. To see the django application and django admin:
+   ```bash
+   http://0.0.0.0:8000/admin/
+   ```
 
 ### Database Management
 To access the database, use the following commands:
